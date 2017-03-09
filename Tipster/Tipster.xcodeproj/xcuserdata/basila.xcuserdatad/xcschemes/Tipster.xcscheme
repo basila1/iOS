@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "FDB587141E70DD3500EFF08E"
-               BuildableName = "TicTacToe.app"
-               BlueprintName = "TicTacToe"
-               ReferencedContainer = "container:TicTacToe.xcodeproj">
+               BlueprintIdentifier = "FDB5874E1E7119CF00EFF08E"
+               BuildableName = "Tipster.app"
+               BlueprintName = "Tipster"
+               ReferencedContainer = "container:Tipster.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -32,30 +32,30 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "FDB587281E70DD3600EFF08E"
-               BuildableName = "TicTacToeTests.xctest"
-               BlueprintName = "TicTacToeTests"
-               ReferencedContainer = "container:TicTacToe.xcodeproj">
+               BlueprintIdentifier = "FDB587621E7119CF00EFF08E"
+               BuildableName = "TipsterTests.xctest"
+               BlueprintName = "TipsterTests"
+               ReferencedContainer = "container:Tipster.xcodeproj">
             </BuildableReference>
          </TestableReference>
          <TestableReference
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "FDB587331E70DD3600EFF08E"
-               BuildableName = "TicTacToeUITests.xctest"
-               BlueprintName = "TicTacToeUITests"
-               ReferencedContainer = "container:TicTacToe.xcodeproj">
+               BlueprintIdentifier = "FDB5876D1E7119CF00EFF08E"
+               BuildableName = "TipsterUITests.xctest"
+               BlueprintName = "TipsterUITests"
+               ReferencedContainer = "container:Tipster.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "FDB587141E70DD3500EFF08E"
-            BuildableName = "TicTacToe.app"
-            BlueprintName = "TicTacToe"
-            ReferencedContainer = "container:TicTacToe.xcodeproj">
+            BlueprintIdentifier = "FDB5874E1E7119CF00EFF08E"
+            BuildableName = "Tipster.app"
+            BlueprintName = "Tipster"
+            ReferencedContainer = "container:Tipster.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -75,10 +75,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "FDB587141E70DD3500EFF08E"
-            BuildableName = "TicTacToe.app"
-            BlueprintName = "TicTacToe"
-            ReferencedContainer = "container:TicTacToe.xcodeproj">
+            BlueprintIdentifier = "FDB5874E1E7119CF00EFF08E"
+            BuildableName = "Tipster.app"
+            BlueprintName = "Tipster"
+            ReferencedContainer = "container:Tipster.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -94,10 +94,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "FDB587141E70DD3500EFF08E"
-            BuildableName = "TicTacToe.app"
-            BlueprintName = "TicTacToe"
-            ReferencedContainer = "container:TicTacToe.xcodeproj">
+            BlueprintIdentifier = "FDB5874E1E7119CF00EFF08E"
+            BuildableName = "Tipster.app"
+            BlueprintName = "Tipster"
+            ReferencedContainer = "container:Tipster.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

@@ -4,7 +4,7 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>TicTacToe.xcscheme</key>
+		<key>Tipster.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>0</integer>
@@ -12,17 +12,17 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>FDB587141E70DD3500EFF08E</key>
+		<key>FDB5874E1E7119CF00EFF08E</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>FDB587281E70DD3600EFF08E</key>
+		<key>FDB587621E7119CF00EFF08E</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>FDB587331E70DD3600EFF08E</key>
+		<key>FDB5876D1E7119CF00EFF08E</key>
 		<dict>
 			<key>primary</key>
 			<true/>
