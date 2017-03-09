@@ -1,0 +1,528 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FDB586A51E70C01100EFF08E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDB586A41E70C01100EFF08E /* AppDelegate.swift */; };
+		FDB586A71E70C01100EFF08E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDB586A61E70C01100EFF08E /* ViewController.swift */; };
+		FDB586AA1E70C01100EFF08E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FDB586A81E70C01100EFF08E /* Main.storyboard */; };
+		FDB586AC1E70C01100EFF08E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FDB586AB1E70C01100EFF08E /* Assets.xcassets */; };
+		FDB586AF1E70C01100EFF08E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FDB586AD1E70C01100EFF08E /* LaunchScreen.storyboard */; };
+		FDB586BA1E70C01200EFF08E /* NinjaGoldTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDB586B91E70C01200EFF08E /* NinjaGoldTests.swift */; };
+		FDB586C51E70C01200EFF08E /* NinjaGoldUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDB586C41E70C01200EFF08E /* NinjaGoldUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FDB586B61E70C01200EFF08E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FDB586991E70C01100EFF08E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FDB586A01E70C01100EFF08E;
+			remoteInfo = NinjaGold;
+		};
+		FDB586C11E70C01200EFF08E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FDB586991E70C01100EFF08E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FDB586A01E70C01100EFF08E;
+			remoteInfo = NinjaGold;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FDB586A11E70C01100EFF08E /* NinjaGold.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NinjaGold.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FDB586A41E70C01100EFF08E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FDB586A61E70C01100EFF08E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FDB586A91E70C01100EFF08E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FDB586AB1E70C01100EFF08E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FDB586AE1E70C01100EFF08E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FDB586B01E70C01100EFF08E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FDB586B51E70C01200EFF08E /* NinjaGoldTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NinjaGoldTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FDB586B91E70C01200EFF08E /* NinjaGoldTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NinjaGoldTests.swift; sourceTree = "<group>"; };
+		FDB586BB1E70C01200EFF08E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FDB586C01E70C01200EFF08E /* NinjaGoldUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NinjaGoldUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FDB586C41E70C01200EFF08E /* NinjaGoldUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NinjaGoldUITests.swift; sourceTree = "<group>"; };
+		FDB586C61E70C01200EFF08E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FDB5869E1E70C01100EFF08E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDB586B21E70C01200EFF08E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDB586BD1E70C01200EFF08E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FDB586981E70C01100EFF08E = {
+			isa = PBXGroup;
+			children = (
+				FDB586A31E70C01100EFF08E /* NinjaGold */,
+				FDB586B81E70C01200EFF08E /* NinjaGoldTests */,
+				FDB586C31E70C01200EFF08E /* NinjaGoldUITests */,
+				FDB586A21E70C01100EFF08E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FDB586A21E70C01100EFF08E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FDB586A11E70C01100EFF08E /* NinjaGold.app */,
+				FDB586B51E70C01200EFF08E /* NinjaGoldTests.xctest */,
+				FDB586C01E70C01200EFF08E /* NinjaGoldUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FDB586A31E70C01100EFF08E /* NinjaGold */ = {
+			isa = PBXGroup;
+			children = (
+				FDB586A41E70C01100EFF08E /* AppDelegate.swift */,
+				FDB586A61E70C01100EFF08E /* ViewController.swift */,
+				FDB586A81E70C01100EFF08E /* Main.storyboard */,
+				FDB586AB1E70C01100EFF08E /* Assets.xcassets */,
+				FDB586AD1E70C01100EFF08E /* LaunchScreen.storyboard */,
+				FDB586B01E70C01100EFF08E /* Info.plist */,
+			);
+			path = NinjaGold;
+			sourceTree = "<group>";
+		};
+		FDB586B81E70C01200EFF08E /* NinjaGoldTests */ = {
+			isa = PBXGroup;
+			children = (
+				FDB586B91E70C01200EFF08E /* NinjaGoldTests.swift */,
+				FDB586BB1E70C01200EFF08E /* Info.plist */,
+			);
+			path = NinjaGoldTests;
+			sourceTree = "<group>";
+		};
+		FDB586C31E70C01200EFF08E /* NinjaGoldUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FDB586C41E70C01200EFF08E /* NinjaGoldUITests.swift */,
+				FDB586C61E70C01200EFF08E /* Info.plist */,
+			);
+			path = NinjaGoldUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FDB586A01E70C01100EFF08E /* NinjaGold */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FDB586C91E70C01200EFF08E /* Build configuration list for PBXNativeTarget "NinjaGold" */;
+			buildPhases = (
+				FDB5869D1E70C01100EFF08E /* Sources */,
+				FDB5869E1E70C01100EFF08E /* Frameworks */,
+				FDB5869F1E70C01100EFF08E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NinjaGold;
+			productName = NinjaGold;
+			productReference = FDB586A11E70C01100EFF08E /* NinjaGold.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FDB586B41E70C01200EFF08E /* NinjaGoldTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FDB586CC1E70C01200EFF08E /* Build configuration list for PBXNativeTarget "NinjaGoldTests" */;
+			buildPhases = (
+				FDB586B11E70C01200EFF08E /* Sources */,
+				FDB586B21E70C01200EFF08E /* Frameworks */,
+				FDB586B31E70C01200EFF08E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FDB586B71E70C01200EFF08E /* PBXTargetDependency */,
+			);
+			name = NinjaGoldTests;
+			productName = NinjaGoldTests;
+			productReference = FDB586B51E70C01200EFF08E /* NinjaGoldTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FDB586BF1E70C01200EFF08E /* NinjaGoldUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FDB586CF1E70C01200EFF08E /* Build configuration list for PBXNativeTarget "NinjaGoldUITests" */;
+			buildPhases = (
+				FDB586BC1E70C01200EFF08E /* Sources */,
+				FDB586BD1E70C01200EFF08E /* Frameworks */,
+				FDB586BE1E70C01200EFF08E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FDB586C21E70C01200EFF08E /* PBXTargetDependency */,
+			);
+			name = NinjaGoldUITests;
+			productName = NinjaGoldUITests;
+			productReference = FDB586C01E70C01200EFF08E /* NinjaGoldUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FDB586991E70C01100EFF08E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Basila Nathan";
+				TargetAttributes = {
+					FDB586A01E70C01100EFF08E = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					FDB586B41E70C01200EFF08E = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = FDB586A01E70C01100EFF08E;
+					};
+					FDB586BF1E70C01200EFF08E = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = FDB586A01E70C01100EFF08E;
+					};
+				};
+			};
+			buildConfigurationList = FDB5869C1E70C01100EFF08E /* Build configuration list for PBXProject "NinjaGold" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FDB586981E70C01100EFF08E;
+			productRefGroup = FDB586A21E70C01100EFF08E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FDB586A01E70C01100EFF08E /* NinjaGold */,
+				FDB586B41E70C01200EFF08E /* NinjaGoldTests */,
+				FDB586BF1E70C01200EFF08E /* NinjaGoldUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FDB5869F1E70C01100EFF08E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDB586AF1E70C01100EFF08E /* LaunchScreen.storyboard in Resources */,
+				FDB586AC1E70C01100EFF08E /* Assets.xcassets in Resources */,
+				FDB586AA1E70C01100EFF08E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDB586B31E70C01200EFF08E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDB586BE1E70C01200EFF08E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FDB5869D1E70C01100EFF08E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDB586A71E70C01100EFF08E /* ViewController.swift in Sources */,
+				FDB586A51E70C01100EFF08E /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDB586B11E70C01200EFF08E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDB586BA1E70C01200EFF08E /* NinjaGoldTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDB586BC1E70C01200EFF08E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDB586C51E70C01200EFF08E /* NinjaGoldUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FDB586B71E70C01200EFF08E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FDB586A01E70C01100EFF08E /* NinjaGold */;
+			targetProxy = FDB586B61E70C01200EFF08E /* PBXContainerItemProxy */;
+		};
+		FDB586C21E70C01200EFF08E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FDB586A01E70C01100EFF08E /* NinjaGold */;
+			targetProxy = FDB586C11E70C01200EFF08E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FDB586A81E70C01100EFF08E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FDB586A91E70C01100EFF08E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FDB586AD1E70C01100EFF08E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FDB586AE1E70C01100EFF08E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FDB586C71E70C01200EFF08E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FDB586C81E70C01200EFF08E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FDB586CA1E70C01200EFF08E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = NinjaGold/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Basila.NinjaGold;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		FDB586CB1E70C01200EFF08E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = NinjaGold/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Basila.NinjaGold;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		FDB586CD1E70C01200EFF08E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = NinjaGoldTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Basila.NinjaGoldTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NinjaGold.app/NinjaGold";
+			};
+			name = Debug;
+		};
+		FDB586CE1E70C01200EFF08E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = NinjaGoldTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Basila.NinjaGoldTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NinjaGold.app/NinjaGold";
+			};
+			name = Release;
+		};
+		FDB586D01E70C01200EFF08E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = NinjaGoldUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Basila.NinjaGoldUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = NinjaGold;
+			};
+			name = Debug;
+		};
+		FDB586D11E70C01200EFF08E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = NinjaGoldUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Basila.NinjaGoldUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = NinjaGold;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FDB5869C1E70C01100EFF08E /* Build configuration list for PBXProject "NinjaGold" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FDB586C71E70C01200EFF08E /* Debug */,
+				FDB586C81E70C01200EFF08E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FDB586C91E70C01200EFF08E /* Build configuration list for PBXNativeTarget "NinjaGold" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FDB586CA1E70C01200EFF08E /* Debug */,
+				FDB586CB1E70C01200EFF08E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FDB586CC1E70C01200EFF08E /* Build configuration list for PBXNativeTarget "NinjaGoldTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FDB586CD1E70C01200EFF08E /* Debug */,
+				FDB586CE1E70C01200EFF08E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FDB586CF1E70C01200EFF08E /* Build configuration list for PBXNativeTarget "NinjaGoldUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FDB586D01E70C01200EFF08E /* Debug */,
+				FDB586D11E70C01200EFF08E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FDB586991E70C01100EFF08E /* Project object */;
+}
