@@ -8,7 +8,7 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class ViewController: UIViewController, UITableViewDelegate {
     
     var tasks = ["Bhangra", "Fashion Blog", "Coding Dojo", "iOS", "React", "Angular"]
     
@@ -28,6 +28,7 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         tableView.dataSource = self //informing the table view that it should ask the view controller these questions
+        tableView.delegate = self
         // Do any additional setup after loading the view, typically from a nib.
     }
 
@@ -49,6 +50,11 @@ extension ViewController: UITableViewDataSource {
         let cell = tableView.dequeueReusableCell(withIdentifier: "MyCell", for: indexPath)
         cell.textLabel?.text = tasks[indexPath.row]
         return cell
+    }
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        print("Section: \(indexPath.section) and Row: \(indexPath.row)")
+        tasks.remove(at: indexPath.row)
+        tableView.reloadData()
     }
     
 }
