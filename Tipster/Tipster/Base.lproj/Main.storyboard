@@ -104,21 +104,21 @@
                                     <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="da2-Za-UIm">
                                         <rect key="frame" x="0.0" y="0.0" width="375" height="62.5"/>
                                         <subviews>
-                                            <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LEo-qP-Qr7">
+                                            <button opaque="NO" tag="7" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LEo-qP-Qr7">
                                                 <rect key="frame" x="0.0" y="0.0" width="125" height="62.5"/>
                                                 <state key="normal" title="7"/>
                                                 <connections>
                                                     <action selector="numberPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="jjq-2v-owk"/>
                                                 </connections>
                                             </button>
-                                            <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qHI-I5-0Jp">
+                                            <button opaque="NO" tag="8" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qHI-I5-0Jp">
                                                 <rect key="frame" x="125" y="0.0" width="125" height="62.5"/>
                                                 <state key="normal" title="8"/>
                                                 <connections>
                                                     <action selector="numberPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="zrw-6K-ieu"/>
                                                 </connections>
                                             </button>
-                                            <button opaque="NO" tag="3" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0q1-bW-GBe">
+                                            <button opaque="NO" tag="9" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0q1-bW-GBe">
                                                 <rect key="frame" x="250" y="0.0" width="125" height="62.5"/>
                                                 <state key="normal" title="9"/>
                                                 <connections>
@@ -156,21 +156,21 @@
                                     <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="4GB-1M-jaT">
                                         <rect key="frame" x="0.0" y="125" width="375" height="62.5"/>
                                         <subviews>
-                                            <button opaque="NO" tag="7" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2wo-8b-VbY">
+                                            <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2wo-8b-VbY">
                                                 <rect key="frame" x="0.0" y="0.0" width="125" height="62.5"/>
                                                 <state key="normal" title="1"/>
                                                 <connections>
                                                     <action selector="numberPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="FT5-nT-IgG"/>
                                                 </connections>
                                             </button>
-                                            <button opaque="NO" tag="8" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ieq-gL-v8T">
+                                            <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ieq-gL-v8T">
                                                 <rect key="frame" x="125" y="0.0" width="125" height="62.5"/>
                                                 <state key="normal" title="2"/>
                                                 <connections>
                                                     <action selector="numberPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="KkN-1V-r2t"/>
                                                 </connections>
                                             </button>
-                                            <button opaque="NO" tag="9" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="p3E-Sf-Y44">
+                                            <button opaque="NO" tag="3" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="p3E-Sf-Y44">
                                                 <rect key="frame" x="250" y="0.0" width="125" height="62.5"/>
                                                 <state key="normal" title="3"/>
                                                 <connections>
@@ -189,14 +189,14 @@
                                                     <action selector="numberPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ctg-3D-uBw"/>
                                                 </connections>
                                             </button>
-                                            <button opaque="NO" tag="10" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="h4B-Ed-7H4">
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="h4B-Ed-7H4">
                                                 <rect key="frame" x="125" y="0.0" width="125" height="62.5"/>
                                                 <state key="normal" title="0"/>
                                                 <connections>
                                                     <action selector="numberPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="R6g-Wo-e7I"/>
                                                 </connections>
                                             </button>
-                                            <button opaque="NO" tag="12" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fGX-AQ-ZCM">
+                                            <button opaque="NO" tag="11" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fGX-AQ-ZCM">
                                                 <rect key="frame" x="250" y="0.0" width="125" height="62.5"/>
                                                 <state key="normal" title="."/>
                                                 <connections>
@@ -222,13 +222,13 @@
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="100" translatesAutoresizingMaskIntoConstraints="NO" id="KCh-Wc-wsf">
+                                            <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="35" translatesAutoresizingMaskIntoConstraints="NO" id="KCh-Wc-wsf">
                                                 <rect key="frame" x="173" y="0.0" width="204" height="70.5"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" constant="200" id="BV1-cA-Mo7"/>
                                                 </constraints>
                                                 <connections>
-                                                    <action selector="tipSlider:" destination="BYZ-38-t0r" eventType="valueChanged" id="mCR-fq-3xm"/>
+                                                    <action selector="tipPercentageSlider:" destination="BYZ-38-t0r" eventType="valueChanged" id="187-Tc-shh"/>
                                                 </connections>
                                             </slider>
                                         </subviews>
@@ -248,7 +248,7 @@
                                                     <constraint firstAttribute="width" constant="200" id="5x4-n5-fvI"/>
                                                 </constraints>
                                                 <connections>
-                                                    <action selector="groupSlider:" destination="BYZ-38-t0r" eventType="valueChanged" id="EFl-OH-twu"/>
+                                                    <action selector="groupSlider:" destination="BYZ-38-t0r" eventType="valueChanged" id="ujt-8f-Dlw"/>
                                                 </connections>
                                             </slider>
                                         </subviews>
@@ -258,7 +258,7 @@
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="DUy-7n-kRd">
                                 <rect key="frame" x="0.0" y="28" width="375" height="42"/>
                                 <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="12.5 " textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PAM-Uq-1l6">
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PAM-Uq-1l6">
                                         <rect key="frame" x="0.0" y="0.0" width="375" height="42"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <nil key="textColor"/>
@@ -288,6 +288,9 @@
                         </constraints>
                     </view>
                     <connections>
+                        <outlet property="customTipPercentageSlider" destination="KCh-Wc-wsf" id="Wz3-hM-Sdd"/>
+                        <outlet property="groupSliderLabel" destination="vAc-zG-Vij" id="xwK-PO-8ch"/>
+                        <outlet property="groupTextLabel" destination="hk3-3K-N5C" id="nFC-f2-JNI"/>
                         <outlet property="numLabel" destination="PAM-Uq-1l6" id="bti-1g-a7F"/>
                         <outlet property="tipAmount1" destination="KPv-no-7GW" id="wxY-2Z-YDs"/>
                         <outlet property="tipAmount2" destination="zcx-qC-DQE" id="Wio-QZ-Sjx"/>
