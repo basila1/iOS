@@ -28,14 +28,12 @@ class ViewController: UIViewController {
     }
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        if segue.identifier == "gotoDisplayViewController" {
-            if let destination = segue.destination as? displayViewController {
-                
-                destination.passedData = sender as? String
-                print ("Sender Value: \(sender)")
+        
+        let direction = sender as! String
+        let controller = segue.destination as! displayViewController
+        controller.direction = direction
+        
             }
-        }
-    }
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
