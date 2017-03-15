@@ -49,7 +49,7 @@
 		FD3EBD5B1E7249F100D6661D /* BucketListUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BucketListUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FD3EBD5F1E7249F100D6661D /* BucketListUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BucketListUITests.swift; sourceTree = "<group>"; };
 		FD3EBD611E7249F100D6661D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		FD3EBD6F1E72538700D6661D /* AddItemTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AddItemTableViewController.swift; path = BucketList/AddItemTableViewController.swift; sourceTree = "<group>"; };
+		FD3EBD6F1E72538700D6661D /* AddItemTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddItemTableViewController.swift; sourceTree = "<group>"; };
 		FD3EBD711E72550100D6661D /* CancelButtonDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CancelButtonDelegate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -81,7 +81,6 @@
 		FD3EBD331E7249F000D6661D = {
 			isa = PBXGroup;
 			children = (
-				FD3EBD6F1E72538700D6661D /* AddItemTableViewController.swift */,
 				FD3EBD3E1E7249F000D6661D /* BucketList */,
 				FD3EBD531E7249F100D6661D /* BucketListTests */,
 				FD3EBD5E1E7249F100D6661D /* BucketListUITests */,
@@ -102,6 +101,7 @@
 		FD3EBD3E1E7249F000D6661D /* BucketList */ = {
 			isa = PBXGroup;
 			children = (
+				FD3EBD6F1E72538700D6661D /* AddItemTableViewController.swift */,
 				FD3EBD3F1E7249F000D6661D /* AppDelegate.swift */,
 				FD3EBD411E7249F000D6661D /* BucketListViewController.swift */,
 				FD3EBD431E7249F000D6661D /* Main.storyboard */,
@@ -513,6 +513,7 @@
 				FD3EBD661E7249F100D6661D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FD3EBD671E7249F100D6661D /* Build configuration list for PBXNativeTarget "BucketListTests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +522,7 @@
 				FD3EBD691E7249F100D6661D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FD3EBD6A1E7249F100D6661D /* Build configuration list for PBXNativeTarget "BucketListUITests" */ = {
 			isa = XCConfigurationList;
@@ -529,6 +531,7 @@
 				FD3EBD6C1E7249F100D6661D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

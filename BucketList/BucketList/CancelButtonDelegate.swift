@@ -9,7 +9,8 @@
 import Foundation
 
 protocol CancelButtonDelegate: class {
-    func cancelButtonPressed(by controller: UITableViewController)
+    func cancelButtonPressed(by controller: AddItemTableViewController)
+    func saveButtonPressed(by controller: AddItemTableViewController, with text: String, at indexPath: NSIndexPath?)
     
     
 }

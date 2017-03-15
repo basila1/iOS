@@ -36,17 +36,47 @@ class BucketListViewController: UITableViewController, CancelButtonDelegate {
         return cell
         
     }
+    override func tableView(_ tableView: UITableView, commit editingStyle: UITableViewCellEditingStyle, forRowAt indexPath: IndexPath){
+        items.remove(at: indexPath.row)
+        tableView.reloadData()
+    }
+    
+    override func tableView(_ tableView: UITableView, accessoryButtonTappedForRowWith indexPath: IndexPath) {
+        performSegue(withIdentifier: "EditItemSegue", sender: indexPath)
+    }
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        print ("catsss")
         let navigationController = segue.destination as! UINavigationController
         let addItemTableController = navigationController.topViewController as! AddItemTableViewController
         addItemTableController.delegate = self
+        print ("dogggssss")
+        if segue.identifier == "EditItemSegue" {
+            let indexPath = sender as! NSIndexPath
+            let item = items[indexPath.row]
+            addItemTableController.item = item
+            addItemTableController.indexPath = indexPath
+            print ("yayyyyy")
+        }
+        
         
     }
     
-    func cancelButtonPressed(by controller: UIViewController)  {
-    print("I love to dance")
+    func cancelButtonPressed(by controller: AddItemTableViewController)  {
+    dismiss(animated: true, completion: nil)
     }
+    
+    func saveButtonPressed(by controller: AddItemTableViewController, with text: String, at indexPath: NSIndexPath?) {
+        if let ip = indexPath {
+            items[ip.row] = text
+        } else {
+            items.append(text)
+        }
+        tableView.reloadData()
+        dismiss(animated: true, completion: nil)
+    }
+    
+    
 
 
 }

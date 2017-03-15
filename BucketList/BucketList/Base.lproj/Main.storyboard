@@ -19,11 +19,11 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="ListItemCell" id="tCi-kS-YFU">
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" accessoryType="detailDisclosureButton" indentationWidth="10" reuseIdentifier="ListItemCell" id="tCi-kS-YFU">
                                 <rect key="frame" x="0.0" y="28" width="375" height="44"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="tCi-kS-YFU" id="XCX-sX-LGa">
-                                    <rect key="frame" x="0.0" y="0.0" width="375" height="43"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="308" height="43.5"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                 </tableViewCellContentView>
                             </tableViewCell>
@@ -36,10 +36,13 @@
                     <navigationItem key="navigationItem" id="baX-PR-Pr2">
                         <barButtonItem key="rightBarButtonItem" systemItem="add" id="3cN-Yv-4vE">
                             <connections>
-                                <segue destination="R8p-bG-5BX" kind="presentation" id="TZc-kJ-HWC"/>
+                                <segue destination="R8p-bG-5BX" kind="presentation" identifier="addItemSegue" id="I71-5j-Owg"/>
                             </connections>
                         </barButtonItem>
                     </navigationItem>
+                    <connections>
+                        <segue destination="R8p-bG-5BX" kind="presentation" identifier="EditItemSegue" id="PNE-ZD-3td"/>
+                    </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ktn-pS-jpH" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -60,7 +63,7 @@
                                         <rect key="frame" x="0.0" y="0.0" width="375" height="80"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="BFy-nn-zEf" id="MxA-Fm-EeJ">
-                                            <rect key="frame" x="0.0" y="0.0" width="375" height="79"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="79.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="mEH-PU-1bm">
@@ -92,8 +95,16 @@
                                 <action selector="cancelButtonPressed:" destination="ycg-gd-tD6" id="H8q-yw-TgX"/>
                             </connections>
                         </barButtonItem>
-                        <barButtonItem key="rightBarButtonItem" systemItem="save" id="0Ic-33-IgA"/>
+                        <barButtonItem key="rightBarButtonItem" systemItem="save" id="0Ic-33-IgA">
+                            <connections>
+                                <action selector="saveButtonPressed:" destination="ycg-gd-tD6" id="JHL-pk-jyW"/>
+                            </connections>
+                        </barButtonItem>
                     </navigationItem>
+                    <connections>
+                        <outlet property="item" destination="mEH-PU-1bm" id="ysV-4A-Eog"/>
+                        <outlet property="itemTextField" destination="mEH-PU-1bm" id="kYf-G9-bME"/>
+                    </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="6xJ-IM-X36" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -136,4 +147,7 @@
             <point key="canvasLocation" x="1836" y="122.78860569715144"/>
         </scene>
     </scenes>
+    <inferredMetricsTieBreakers>
+        <segue reference="PNE-ZD-3td"/>
+    </inferredMetricsTieBreakers>
 </document>
