@@ -57,7 +57,7 @@ class AddItemViewController: UIViewController {
         
         doneDelegateVariable?.doneButtonPressed(controller: self, text: userInput) //this method is in the previous page, and it contains the dismiss function. pass the input, before it dimisses the modal, it will take the input, append it to the array and reload the data.
             
-         }   
+         }
         
         print(userInput)
     }

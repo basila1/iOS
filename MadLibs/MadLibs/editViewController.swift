@@ -17,26 +17,14 @@ class editViewController: UIViewController {
     @IBOutlet weak var textField3: UITextField!
     @IBOutlet weak var textField4: UITextField!
     
+    weak var delegate: MadLibDelegate?
+    
     @IBAction func submitButtonPressed(_ sender: UIButton) {
-//        let userInput = [textField1.text, textField2.text, textField3.text, textField4.text]
-        
-        let userInput = textField1.text
-        
-//        let userInput2 = textField2.text
-//        let userInput3 = textField3.text
-//        let userInput4 = textField4.text
-        
-//        performSegue(withIdentifier: "goToEditViewController", sender: userInput)
-        
+        let userInput = [textField1.text, textField2.text, textField3.text, textField4.text]
+        delegate?.itemSaved(controller: self, text: userInput as! [String])
     }
     
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-//        if segue.identifier == "goToEditViewController" {
-            if let destination = segue.destination as? ViewController {
-                destination.passedData = sender as? String
-            }
-//        }
-    }
+
     
     
     override func viewDidLoad() {
@@ -44,10 +32,7 @@ class editViewController: UIViewController {
         // Do any additional setup after loading the view, typically from a nib.
     }
     
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
+    
     
     
 }

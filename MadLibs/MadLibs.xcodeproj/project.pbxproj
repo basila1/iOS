@@ -15,6 +15,7 @@
 		FDC56BAD1E79F98E00A1F933 /* MadLibsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDC56BAC1E79F98E00A1F933 /* MadLibsTests.swift */; };
 		FDC56BB81E79F98E00A1F933 /* MadLibsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDC56BB71E79F98E00A1F933 /* MadLibsUITests.swift */; };
 		FDC56BC61E79FA4600A1F933 /* editViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDC56BC51E79FA4600A1F933 /* editViewController.swift */; };
+		FDC56D151E80844900A1F933 /* MadLibDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDC56D141E80844900A1F933 /* MadLibDelegate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		FDC56BB71E79F98E00A1F933 /* MadLibsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MadLibsUITests.swift; sourceTree = "<group>"; };
 		FDC56BB91E79F98E00A1F933 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FDC56BC51E79FA4600A1F933 /* editViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = editViewController.swift; sourceTree = "<group>"; };
+		FDC56D141E80844900A1F933 /* MadLibDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MadLibDelegate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +103,7 @@
 			children = (
 				FDC56B971E79F98E00A1F933 /* AppDelegate.swift */,
 				FDC56B991E79F98E00A1F933 /* ViewController.swift */,
+				FDC56D141E80844900A1F933 /* MadLibDelegate.swift */,
 				FDC56B9B1E79F98E00A1F933 /* Main.storyboard */,
 				FDC56BC51E79FA4600A1F933 /* editViewController.swift */,
 				FDC56B9E1E79F98E00A1F933 /* Assets.xcassets */,
@@ -265,6 +268,7 @@
 				FDC56B9A1E79F98E00A1F933 /* ViewController.swift in Sources */,
 				FDC56BC61E79FA4600A1F933 /* editViewController.swift in Sources */,
 				FDC56B981E79F98E00A1F933 /* AppDelegate.swift in Sources */,
+				FDC56D151E80844900A1F933 /* MadLibDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
