@@ -37,7 +37,7 @@ class ViewController: UIViewController, MadLibDelegate {
     func itemSaved(controller: editViewController, text: [String]) {
         madLibLabel.text = "We are having a perfecty \(text[0]) time now.  Later we will \(text[1]) and \(text[2]) in the \(text[3])."
         
-        dismiss(animated: true, completion: nil)
+//        dismiss(animated: true, completion: nil)
     }
     
     
