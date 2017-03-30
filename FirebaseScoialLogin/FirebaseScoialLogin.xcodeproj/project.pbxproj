@@ -8,8 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		3F30D4DF55360F197311D470 /* Pods_FirebaseScoialLogin.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 121BE373DD6BBAEBB0CEBCB2 /* Pods_FirebaseScoialLogin.framework */; };
+		FD01A0891E8C9398009BDB7A /* SwipeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD01A0881E8C9398009BDB7A /* SwipeViewController.swift */; };
 		FD87FF141E8AD909006985AF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD87FF131E8AD909006985AF /* AppDelegate.swift */; };
-		FD87FF161E8AD909006985AF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD87FF151E8AD909006985AF /* ViewController.swift */; };
+		FD87FF161E8AD909006985AF /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD87FF151E8AD909006985AF /* LoginViewController.swift */; };
 		FD87FF191E8AD909006985AF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD87FF171E8AD909006985AF /* Main.storyboard */; };
 		FD87FF1B1E8AD909006985AF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FD87FF1A1E8AD909006985AF /* Assets.xcassets */; };
 		FD87FF1E1E8AD90A006985AF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD87FF1C1E8AD90A006985AF /* LaunchScreen.storyboard */; };
@@ -19,9 +20,10 @@
 		121BE373DD6BBAEBB0CEBCB2 /* Pods_FirebaseScoialLogin.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FirebaseScoialLogin.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		605B146638FCAE62CDD2950E /* Pods-FirebaseScoialLogin.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FirebaseScoialLogin.release.xcconfig"; path = "Pods/Target Support Files/Pods-FirebaseScoialLogin/Pods-FirebaseScoialLogin.release.xcconfig"; sourceTree = "<group>"; };
 		9A6E5124F6EA9DCC7D544B84 /* Pods-FirebaseScoialLogin.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FirebaseScoialLogin.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FirebaseScoialLogin/Pods-FirebaseScoialLogin.debug.xcconfig"; sourceTree = "<group>"; };
+		FD01A0881E8C9398009BDB7A /* SwipeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwipeViewController.swift; sourceTree = "<group>"; };
 		FD87FF101E8AD909006985AF /* FirebaseScoialLogin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FirebaseScoialLogin.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FD87FF131E8AD909006985AF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		FD87FF151E8AD909006985AF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FD87FF151E8AD909006985AF /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		FD87FF181E8AD909006985AF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FD87FF1A1E8AD909006985AF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FD87FF1D1E8AD90A006985AF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -81,8 +83,9 @@
 			children = (
 				FD87FF251E8AE4D9006985AF /* FirebaseScoialLogin.entitlements */,
 				FD87FF131E8AD909006985AF /* AppDelegate.swift */,
-				FD87FF151E8AD909006985AF /* ViewController.swift */,
+				FD87FF151E8AD909006985AF /* LoginViewController.swift */,
 				FD87FF171E8AD909006985AF /* Main.storyboard */,
+				FD01A0881E8C9398009BDB7A /* SwipeViewController.swift */,
 				FD87FF1A1E8AD909006985AF /* Assets.xcassets */,
 				FD87FF1C1E8AD90A006985AF /* LaunchScreen.storyboard */,
 				FD87FF1F1E8AD90A006985AF /* Info.plist */,
@@ -219,8 +222,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FD87FF161E8AD909006985AF /* ViewController.swift in Sources */,
+				FD87FF161E8AD909006985AF /* LoginViewController.swift in Sources */,
 				FD87FF141E8AD909006985AF /* AppDelegate.swift in Sources */,
+				FD01A0891E8C9398009BDB7A /* SwipeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

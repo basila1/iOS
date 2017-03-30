@@ -9,7 +9,7 @@
 import UIKit
 import FBSDKLoginKit
 
-class ViewController: UIViewController, FBSDKLoginButtonDelegate {
+class LoginViewController: UIViewController, FBSDKLoginButtonDelegate {
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -36,7 +36,6 @@ class ViewController: UIViewController, FBSDKLoginButtonDelegate {
         } else {
             print ("fuck")
         }
-        revoke()
         logout()
         
     }
@@ -48,7 +47,7 @@ class ViewController: UIViewController, FBSDKLoginButtonDelegate {
     
     func showFriends() {
         
-        let params = ["fields": "id, last_name, first_name"]
+        let params = ["fields": "id, last_name, first_name, gender"]
         FBSDKGraphRequest(graphPath: "me/friends", parameters: params).start { (connection, result , error) -> Void in
             
             if error != nil {
@@ -139,12 +138,9 @@ class ViewController: UIViewController, FBSDKLoginButtonDelegate {
 //        var friendsRequest : FBSDKGraphRequest = FBSDKGraphRequest.
 //        
 //    }
-    func revoke() {
-        FBSDKGraphRequest(graphPath: "me/permissions/user_friends", parameters: nil, httpMethod: "DELETE").start { (connection, result , error) -> Void in
-            
-        }
+    
 
-    }
+    
     func loginButton(_ loginButton: FBSDKLoginButton!, didCompleteWith result: FBSDKLoginManagerLoginResult!, error: Error!) {
         if error != nil {
             print(error)
@@ -153,9 +149,11 @@ class ViewController: UIViewController, FBSDKLoginButtonDelegate {
         
         print("Successfully logged in with facebook...")
         
+        performSegue(withIdentifier: "swipe", sender: self)
+        
 
   
-        showFriends()
+//        showFriends()
     }
 }
 
