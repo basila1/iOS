@@ -8,11 +8,13 @@
 
 import UIKit
 import FBSDKLoginKit
+//import Koloda
 
 class SwipeViewController: UIViewController {
 
     @IBOutlet weak var textLabel: UILabel!
     @IBOutlet weak var imageLabel: UIImageView!
+//    @IBOutlet weak var kolodaView: KolodaView!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -26,6 +28,9 @@ class SwipeViewController: UIViewController {
 //        alertController.addAction(maleButton)
 //        alertController.addAction(femaleButton)
 //        self.present(alertController, animated: true, completion: nil)
+//        kolodaView.dataSource = self
+//        kolodaView.delegate = self
+        
         showFriends()
         
         
@@ -72,3 +77,23 @@ class SwipeViewController: UIViewController {
 
     
 }
+//
+//extension SwipeViewController: KolodaViewDelegate {
+//    func kolodaDidRunOutOfCards(_ koloda: KolodaView) {
+//        dataSource.reset()
+//    }
+//    func koloda(_ koloda: KolodaView, didSelectCardAt index: Int) {
+//        UIApplication.sharedApplication().openURL(NSURL(string: "https://google.com/")!)
+//    }
+//}
+//extension SwipeViewController: KolodaViewDataSource {
+//    func kolodaNumberOfCards(_ koloda: KolodaView) -> Int {
+//        return 5
+//    }
+//    func koloda(_ koloda: KolodaView, viewForCardAt index: Int) -> UIView {
+//        return UIImageView(image: images[index])
+//    }
+//    func koloda(_ koloda: KolodaView, viewForCardOverlayAt index: Int) -> OverlayView? {
+//        return NSBundle.mainBundle().loadNibNamed("OverlayView", owner: self, options: nil)[0] as? OverlayView
+//    }
+//}

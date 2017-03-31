@@ -10,5 +10,6 @@ target 'FirebaseScoialLogin' do
 pod 'FBSDKCoreKit'
 pod 'FBSDKShareKit'
 pod 'FBSDKLoginKit'
+pod 'Firebase/Core'
 
 end
