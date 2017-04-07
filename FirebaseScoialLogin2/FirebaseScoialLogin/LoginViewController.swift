@@ -17,9 +17,10 @@ class LoginViewController: UIViewController, FBSDKLoginButtonDelegate {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        
         let loginButton = FBSDKLoginButton()
-        loginButton.readPermissions = ["read_custom_friendlists"]
-        loginButton.readPermissions = ["user_friends"]
+        loginButton.readPermissions = ["email", "read_custom_friendlists", "user_friends"]
+       
 
         view.addSubview(loginButton)
         //frame's are obselete, please use constraints instead because its 2016 after all
@@ -46,9 +47,10 @@ class LoginViewController: UIViewController, FBSDKLoginButtonDelegate {
     func logout() {
         FBSDKLoginManager().logOut()
         
+        
     }
     
-
+//10154776567842224
     
     func showFriends() {
         let accessToken = FBSDKAccessToken.current()
@@ -64,7 +66,7 @@ class LoginViewController: UIViewController, FBSDKLoginButtonDelegate {
         })
         
         let params = ["fields": "id, last_name, first_name, gender, email"]
-        FBSDKGraphRequest(graphPath: "me/taggable_friends", parameters: params).start { (connection, result , error) -> Void in
+        FBSDKGraphRequest(graphPath: "me/friends", parameters: params).start { (connection, result , error) -> Void in
             
             if error != nil {
                 print(error!)
