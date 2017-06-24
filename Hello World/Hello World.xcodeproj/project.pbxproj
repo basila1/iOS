@@ -12,6 +12,7 @@
 		FDCE8C7B1EFEF26700CD5647 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FDCE8C791EFEF26700CD5647 /* Main.storyboard */; };
 		FDCE8C7D1EFEF26700CD5647 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FDCE8C7C1EFEF26700CD5647 /* Assets.xcassets */; };
 		FDCE8C801EFEF26700CD5647 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FDCE8C7E1EFEF26700CD5647 /* LaunchScreen.storyboard */; };
+		FDCE8C881EFF032900CD5647 /* snow_leopard.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FDCE8C871EFF032900CD5647 /* snow_leopard.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		FDCE8C7C1EFEF26700CD5647 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FDCE8C7F1EFEF26700CD5647 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FDCE8C811EFEF26700CD5647 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FDCE8C871EFF032900CD5647 /* snow_leopard.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = snow_leopard.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +59,7 @@
 				FDCE8C751EFEF26700CD5647 /* AppDelegate.swift */,
 				FDCE8C771EFEF26700CD5647 /* ViewController.swift */,
 				FDCE8C791EFEF26700CD5647 /* Main.storyboard */,
+				FDCE8C871EFF032900CD5647 /* snow_leopard.jpg */,
 				FDCE8C7C1EFEF26700CD5647 /* Assets.xcassets */,
 				FDCE8C7E1EFEF26700CD5647 /* LaunchScreen.storyboard */,
 				FDCE8C811EFEF26700CD5647 /* Info.plist */,
@@ -123,6 +126,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FDCE8C881EFF032900CD5647 /* snow_leopard.jpg in Resources */,
 				FDCE8C801EFEF26700CD5647 /* LaunchScreen.storyboard in Resources */,
 				FDCE8C7D1EFEF26700CD5647 /* Assets.xcassets in Resources */,
 				FDCE8C7B1EFEF26700CD5647 /* Main.storyboard in Resources */,
