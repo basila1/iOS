@@ -69,11 +69,9 @@ if username == "basila_n" && password == "google" {
 }
 
 
+//Random Number
 
-
-
-
-
+let diceRoll = arc4random_uniform(6)
 
 
 
