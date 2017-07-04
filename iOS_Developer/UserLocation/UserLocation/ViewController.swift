@@ -45,25 +45,132 @@ class ViewController: UIViewController, CLLocationManagerDelegate, MKMapViewDele
         
         print(locations)
         
-        let latitude = userLocation.coordinate.latitude
+        //let latitude = userLocation.coordinate.latitude
         
-        let longitude = userLocation.coordinate.longitude
+        //let longitude = userLocation.coordinate.longitude
         
-        let latDelta: CLLocationDegrees = 0.01
+        //let latDelta: CLLocationDegrees = 0.01
         
-        let lonDelta: CLLocationDegrees = 0.01
+        //let lonDelta: CLLocationDegrees = 0.01
         
-        let span = MKCoordinateSpan(latitudeDelta: latDelta, longitudeDelta: lonDelta)
+        //let span = MKCoordinateSpan(latitudeDelta: latDelta, longitudeDelta: lonDelta)
         
-        let location = CLLocationCoordinate2DMake(latitude, longitude)
+        //let location = CLLocationCoordinate2DMake(latitude, longitude)
         
-        let region = MKCoordinateRegion(center: location, span: span)
+        //let region = MKCoordinateRegion(center: location, span: span)
         
-        self.map.setRegion(region, animated: true)
+        //self.map.setRegion(region, animated: true)
+        
+        //ADDRESS DETAILS FROM A LOCATION USING GEOCODER.REVERSE
+        
+        CLGeocoder().reverseGeocodeLocation(userLocation) { (placemarks, error) in //going from a location to an address
+        
+            if error != nil {
+                
+                print(error)
+                
+            } else {
+                
+                if let placemark = placemarks?[0] {
+                    
+                    print(placemark)
+                    
+                    //number
+                    
+                    var subThoroughfare = ""
+                    
+                    if placemark.subThoroughfare != nil {
+                        
+                        subThoroughfare = placemark.subThoroughfare!
+                        
+                    }
+                    
+                    //street
+                    var thoroughfare = ""
+                    
+                    if placemark.thoroughfare != nil {
+                        
+                        thoroughfare = placemark.thoroughfare!
+                        
+                    }
+                    
+                    //place
+//                    
+//                    var subLocality = ""
+//                    
+//                    if placemark.subLocality != nil {
+//                        
+//                        subLocality = placemark.subLocality!
+//                        
+//                    }
+                    
+                    //city 
+                    
+                    var locality = ""
+                    
+                    if placemark.locality != nil {
+                        
+                        locality = placemark.locality!
+                        
+                    }
+                    
+                    //city
+                    
+//                    var subAdministrativeArea = ""
+//                    
+//                    if placemark.subAdministrativeArea != nil {
+//                        
+//                        subAdministrativeArea = placemark.subAdministrativeArea!
+//                    
+//                    
+//                }
+                    
+                    //state
+                    
+                    var administrativeArea = ""
+                    
+                    if placemark.administrativeArea != nil {
+                        
+                        administrativeArea = placemark.administrativeArea!
+                        
+                        
+                    }
+                    
+                    
+                    
+                    //postal code
+                    
+                    var postalCode = ""
+                    
+                    if placemark.postalCode != nil {
+                        
+                        postalCode = placemark.postalCode!
+                        
+                        
+                    }
+                    
+                    //country
+                    
+                    var country = ""
+                    
+                    if placemark.country != nil {
+                        
+                        country = placemark.country!
+                        
+                        
+                    }
+                    
+                    //combine
+                    
+                    print(subThoroughfare + " " + thoroughfare + "\n" + locality + "\n" + administrativeArea + "\n" +  postalCode + "\n" + country)
+                
+            }
+        }
         
         
     }
 
 
+    }
 }
 
