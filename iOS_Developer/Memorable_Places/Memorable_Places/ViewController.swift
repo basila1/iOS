@@ -10,11 +10,13 @@
 
 import UIKit
 import MapKit
+import CoreLocation
 
-class ViewController: UIViewController, MKMapViewDelegate {
+class ViewController: UIViewController, MKMapViewDelegate, CLLocationManagerDelegate {
     
     @IBOutlet weak var map: MKMapView!
     
+    var manager = CLLocationManager()
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -26,6 +28,11 @@ class ViewController: UIViewController, MKMapViewDelegate {
         map.addGestureRecognizer(uilpgr)
         
         if activePlace == -1 {
+            
+            manager.delegate = self
+            manager.desiredAccuracy = kCLLocationAccuracyBest
+            manager.requestWhenInUseAuthorization()
+            manager.startUpdatingLocation()
             
         } else {
             //get place details to display on map
@@ -84,10 +91,20 @@ class ViewController: UIViewController, MKMapViewDelegate {
                 annotation.title = title
                 self.map.addAnnotation(annotation)
                 places.append(["name" : title,"lat" : String(newCoordinate.latitude), "lon" : String(newCoordinate.longitude)])
+                UserDefaults.standard.set(places, forKey: "places")
+
                 print(places)
             })
         }
         
+    }
+    
+    func locationManager(_ manager: CLLocationManager, didUpdateLocations locations: [CLLocation]) {
+        let location = CLLocationCoordinate2D(latitude: locations[0].coordinate.latitude, longitude: locations[0].coordinate.longitude)
+        
+        let span = MKCoordinateSpan(latitudeDelta: 0.05, longitudeDelta: 0.05)
+        let region = MKCoordinateRegion(center: location, span: span)
+        self.map.setRegion(region, animated: true)
     }
 
     override func didReceiveMemoryWarning() {

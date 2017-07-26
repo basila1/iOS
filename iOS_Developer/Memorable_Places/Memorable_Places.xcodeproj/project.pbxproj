@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FD1A93401F29475600962894 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD1A933F1F29475600962894 /* CoreLocation.framework */; };
 		FD352A6B1F29306B0040F9E4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD352A6A1F29306B0040F9E4 /* AppDelegate.swift */; };
 		FD352A6D1F29306B0040F9E4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD352A6C1F29306B0040F9E4 /* ViewController.swift */; };
 		FD352A701F29306B0040F9E4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD352A6E1F29306B0040F9E4 /* Main.storyboard */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		FD1A933F1F29475600962894 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 		FD352A671F29306B0040F9E4 /* Memorable_Places.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Memorable_Places.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FD352A6A1F29306B0040F9E4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FD352A6C1F29306B0040F9E4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -31,17 +33,27 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FD1A93401F29475600962894 /* CoreLocation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		FD1A933E1F29475600962894 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FD1A933F1F29475600962894 /* CoreLocation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		FD352A5E1F29306B0040F9E4 = {
 			isa = PBXGroup;
 			children = (
 				FD352A691F29306B0040F9E4 /* Memorable_Places */,
 				FD352A681F29306B0040F9E4 /* Products */,
+				FD1A933E1F29475600962894 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -303,6 +315,7 @@
 				FD352A7B1F29306B0040F9E4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

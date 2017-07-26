@@ -22,6 +22,11 @@ class PlacesViewController: UITableViewController {
     }
     
     override func viewDidAppear(_ animated: Bool) {
+        
+        if let temPlaces = UserDefaults.standard.object(forKey: "places") as? [Dictionary<String, String>] {
+            places = temPlaces
+        }
+        
         //check to see if there is a dicitonary in the array
         if places.count == 1 && places[0].count == 0 {
             
@@ -31,9 +36,26 @@ class PlacesViewController: UITableViewController {
             //default place
             places.append(["name" : "Taj Mahal","lat" : "27.17577", "lon" : "78.042128"])
             
+            //permanant storage
+            //will save the places array
+            UserDefaults.standard.set(places, forKey: "places")
+            
         }
         activePlace = -1
         table.reloadData()
+    }
+    
+    //enables user to edit the rows
+    override func tableView(_ tableView: UITableView, canEditRowAt indexPath: IndexPath) -> Bool {
+        return true
+    }
+    
+    override func tableView(_ tableView: UITableView, commit editingStyle: UITableViewCellEditingStyle, forRowAt indexPath: IndexPath) {
+        if editingStyle == UITableViewCellEditingStyle.delete {
+            places.remove(at: indexPath.row)
+            UserDefaults.standard.set(places, forKey: "places")
+            table.reloadData()
+        }
     }
 
     override func didReceiveMemoryWarning() {
