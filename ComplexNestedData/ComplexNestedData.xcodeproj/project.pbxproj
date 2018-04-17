@@ -1,0 +1,349 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FDF168D4208671AB000DBC48 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDF168D3208671AB000DBC48 /* AppDelegate.swift */; };
+		FDF168D6208671AB000DBC48 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDF168D5208671AB000DBC48 /* ViewController.swift */; };
+		FDF168D9208671AB000DBC48 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FDF168D7208671AB000DBC48 /* Main.storyboard */; };
+		FDF168DB208671AB000DBC48 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FDF168DA208671AB000DBC48 /* Assets.xcassets */; };
+		FDF168DE208671AB000DBC48 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FDF168DC208671AB000DBC48 /* LaunchScreen.storyboard */; };
+		FDF168E62086720F000DBC48 /* ComplexJSON.txt in Resources */ = {isa = PBXBuildFile; fileRef = FDF168E520867201000DBC48 /* ComplexJSON.txt */; };
+		FDF168E820867261000DBC48 /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDF168E720867261000DBC48 /* DataService.swift */; };
+		FDF168EA2086789D000DBC48 /* ItemResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDF168E92086789D000DBC48 /* ItemResponse.swift */; };
+		FDF168EC208678A7000DBC48 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDF168EB208678A7000DBC48 /* Item.swift */; };
+		FDF168EE208678B4000DBC48 /* Batters.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDF168ED208678B4000DBC48 /* Batters.swift */; };
+		FDF168F0208678BD000DBC48 /* Batter.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDF168EF208678BD000DBC48 /* Batter.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		FDF168D0208671AB000DBC48 /* ComplexNestedData.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ComplexNestedData.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FDF168D3208671AB000DBC48 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FDF168D5208671AB000DBC48 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FDF168D8208671AB000DBC48 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FDF168DA208671AB000DBC48 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FDF168DD208671AB000DBC48 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FDF168DF208671AB000DBC48 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FDF168E520867201000DBC48 /* ComplexJSON.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = ComplexJSON.txt; sourceTree = "<group>"; };
+		FDF168E720867261000DBC48 /* DataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
+		FDF168E92086789D000DBC48 /* ItemResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemResponse.swift; sourceTree = "<group>"; };
+		FDF168EB208678A7000DBC48 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		FDF168ED208678B4000DBC48 /* Batters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Batters.swift; sourceTree = "<group>"; };
+		FDF168EF208678BD000DBC48 /* Batter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Batter.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FDF168CD208671AB000DBC48 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FDF168C7208671AB000DBC48 = {
+			isa = PBXGroup;
+			children = (
+				FDF168D2208671AB000DBC48 /* ComplexNestedData */,
+				FDF168D1208671AB000DBC48 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FDF168D1208671AB000DBC48 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FDF168D0208671AB000DBC48 /* ComplexNestedData.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FDF168D2208671AB000DBC48 /* ComplexNestedData */ = {
+			isa = PBXGroup;
+			children = (
+				FDF168E520867201000DBC48 /* ComplexJSON.txt */,
+				FDF168D3208671AB000DBC48 /* AppDelegate.swift */,
+				FDF168D5208671AB000DBC48 /* ViewController.swift */,
+				FDF168E720867261000DBC48 /* DataService.swift */,
+				FDF168D7208671AB000DBC48 /* Main.storyboard */,
+				FDF168E92086789D000DBC48 /* ItemResponse.swift */,
+				FDF168EB208678A7000DBC48 /* Item.swift */,
+				FDF168ED208678B4000DBC48 /* Batters.swift */,
+				FDF168EF208678BD000DBC48 /* Batter.swift */,
+				FDF168DA208671AB000DBC48 /* Assets.xcassets */,
+				FDF168DC208671AB000DBC48 /* LaunchScreen.storyboard */,
+				FDF168DF208671AB000DBC48 /* Info.plist */,
+			);
+			path = ComplexNestedData;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FDF168CF208671AB000DBC48 /* ComplexNestedData */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FDF168E2208671AB000DBC48 /* Build configuration list for PBXNativeTarget "ComplexNestedData" */;
+			buildPhases = (
+				FDF168CC208671AB000DBC48 /* Sources */,
+				FDF168CD208671AB000DBC48 /* Frameworks */,
+				FDF168CE208671AB000DBC48 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ComplexNestedData;
+			productName = ComplexNestedData;
+			productReference = FDF168D0208671AB000DBC48 /* ComplexNestedData.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FDF168C8208671AB000DBC48 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = "Basila Nathan";
+				TargetAttributes = {
+					FDF168CF208671AB000DBC48 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = FDF168CB208671AB000DBC48 /* Build configuration list for PBXProject "ComplexNestedData" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FDF168C7208671AB000DBC48;
+			productRefGroup = FDF168D1208671AB000DBC48 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FDF168CF208671AB000DBC48 /* ComplexNestedData */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FDF168CE208671AB000DBC48 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDF168E62086720F000DBC48 /* ComplexJSON.txt in Resources */,
+				FDF168DE208671AB000DBC48 /* LaunchScreen.storyboard in Resources */,
+				FDF168DB208671AB000DBC48 /* Assets.xcassets in Resources */,
+				FDF168D9208671AB000DBC48 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FDF168CC208671AB000DBC48 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDF168F0208678BD000DBC48 /* Batter.swift in Sources */,
+				FDF168EC208678A7000DBC48 /* Item.swift in Sources */,
+				FDF168E820867261000DBC48 /* DataService.swift in Sources */,
+				FDF168D6208671AB000DBC48 /* ViewController.swift in Sources */,
+				FDF168EE208678B4000DBC48 /* Batters.swift in Sources */,
+				FDF168D4208671AB000DBC48 /* AppDelegate.swift in Sources */,
+				FDF168EA2086789D000DBC48 /* ItemResponse.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FDF168D7208671AB000DBC48 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FDF168D8208671AB000DBC48 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FDF168DC208671AB000DBC48 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FDF168DD208671AB000DBC48 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FDF168E0208671AB000DBC48 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FDF168E1208671AB000DBC48 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FDF168E3208671AB000DBC48 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ComplexNestedData/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Basila.ComplexNestedData;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FDF168E4208671AB000DBC48 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ComplexNestedData/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Basila.ComplexNestedData;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FDF168CB208671AB000DBC48 /* Build configuration list for PBXProject "ComplexNestedData" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FDF168E0208671AB000DBC48 /* Debug */,
+				FDF168E1208671AB000DBC48 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FDF168E2208671AB000DBC48 /* Build configuration list for PBXNativeTarget "ComplexNestedData" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FDF168E3208671AB000DBC48 /* Debug */,
+				FDF168E4208671AB000DBC48 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FDF168C8208671AB000DBC48 /* Project object */;
+}
