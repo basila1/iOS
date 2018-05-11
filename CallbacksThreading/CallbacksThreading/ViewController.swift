@@ -49,6 +49,7 @@ class ViewController: UIViewController {
             let data = try Data(contentsOf: url)
             //make json out of the data
             let json = try JSONSerialization.jsonObject(with: data, options: .mutableContainers)
+            print(json)
             
             //our json is in an array of dictionaries
             guard let array = json as? [[String: Any]] else { return }

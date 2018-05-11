@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13196" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13173"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="CloudSaving" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="pLp-MB-2h4">
+                                <rect key="frame" x="0.0" y="68" width="375" height="599"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <connections>
+                                    <outlet property="dataSource" destination="BYZ-38-t0r" id="ChE-P0-Eoh"/>
+                                </connections>
+                            </tableView>
+                            <navigationBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Ihm-Am-TvD">
+                                <rect key="frame" x="0.0" y="24" width="375" height="44"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="44" id="hb4-Nn-6tA"/>
+                                </constraints>
+                                <items>
+                                    <navigationItem title="Cloud" id="eKm-MU-wjb">
+                                        <barButtonItem key="rightBarButtonItem" systemItem="add" id="pKa-2P-f31">
+                                            <connections>
+                                                <action selector="addButtonTapped:" destination="BYZ-38-t0r" id="Ut3-xQ-KhA"/>
+                                            </connections>
+                                        </barButtonItem>
+                                    </navigationItem>
+                                </items>
+                            </navigationBar>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="pLp-MB-2h4" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="8vY-PY-YqU"/>
+                            <constraint firstItem="pLp-MB-2h4" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="Sfr-6J-zxT"/>
+                            <constraint firstItem="pLp-MB-2h4" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="Tm8-af-5dF"/>
+                            <constraint firstItem="Ihm-Am-TvD" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="4" id="a8r-Gm-3rM"/>
+                            <constraint firstItem="Ihm-Am-TvD" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="gmO-Fh-ey3"/>
+                            <constraint firstItem="pLp-MB-2h4" firstAttribute="top" secondItem="Ihm-Am-TvD" secondAttribute="bottom" id="s2c-ai-mgh"/>
+                            <constraint firstItem="Ihm-Am-TvD" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="uq9-Jc-q4N"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="tableView" destination="pLp-MB-2h4" id="auw-5c-s1R"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="136.80000000000001" y="133.5832083958021"/>
+        </scene>
+    </scenes>
+</document>
